@@ -48,7 +48,6 @@ cd rnn && python rnn_v3.py
 
 訓練好的模型、checkpoint 與 submission 檔案體積較大，未放入 repo，執行腳本即可重新產生。
 
-## 報告與影片
+## 報告
 
 - 期末報告：[`reports/`](reports/)
-- 報告影片：（TODO：放上 YouTube / Google Drive 連結）

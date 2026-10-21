@@ -1,0 +1,48 @@
+# ===== Data (download from Kaggle / UCI, see data/README.md) =====
+data/*
+!data/README.md
+*_preprocessed.csv
+*.7z
+*.zip
+
+# ===== Trained models / checkpoints (large, reproducible by running scripts) =====
+*_cv_models/
+*_cv_models_no_duration/
+checkpoints_*/
+ckpt_*/
+AdaBoost/models/
+*.h5
+*.pkl
+*.joblib
+
+# ===== Kaggle submission files (reproducible, ~5MB each) =====
+*submit*.csv
+submission*.csv
+
+# ===== Media (upload video to YouTube / Drive and link it in README) =====
+*.mp4
+*.mov
+drive-download-*/
+
+# ===== Logs =====
+*.log
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
+.vscode/
+.idea/
+
+# ===== Local scratch / third-party notebooks =====
+test.py
+pg-s5e8-*.ipynb

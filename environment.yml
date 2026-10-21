@@ -1,0 +1,19 @@
+name: rnn-tabm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - tensorflow[and-cuda]==2.18.0
+      - keras==3.12.0
+      - numpy==1.26.4
+      - pandas==2.2.3
+      - scikit-learn==1.5.2
+      - scipy==1.13.1
+      - category-encoders==2.6.3
+      - tqdm==4.66.5
+      - matplotlib
+      - seaborn
+      - lightgbm
+      - shap
